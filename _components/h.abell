@@ -1,0 +1,9 @@
+{{ console.log("Level: ", props.level) }}
+{{ console.log("Text: ", props.text) }}
+
+{{
+  // const level = props.level || 1;
+  // const text = props.text || "Hello World";
+}}
+
+<h{{ props.level }}>{{ props.text }}</h{{ props.level }}>
