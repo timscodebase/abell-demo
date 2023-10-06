@@ -12,7 +12,7 @@
   <main>
     <div class="container">
       <img class="brand" src="/abell-logo.svg" alt="abell logo" width="200" height="200" />
-      {{ h({ level: 1, text: 'Welcome to Abell!!!' }) }}
+      {{ h({ level: 1, text: 'Abell Fun!!' }) }}
       <p class="subtext">Welcome to Abell's Default Template 🚀</p>
       <a class="button primary" href="https://abelljs.org/" target="_blank">View Documentation</a>
       &nbsp;<button class="button secondary" id="counter-button">Counter <span id="count">0</span></button>
