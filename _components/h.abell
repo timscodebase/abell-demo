@@ -1,0 +1,1 @@
+<h{{ props.level }}>{{ props.text }}</h{{ props.level }}>
