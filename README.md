@@ -5,5 +5,8 @@
 ### Set up
 
 ```bash
-
+git clone https://github.com/timscodebase/abell-demo.git
+cd abell-demo
+pnpm i
+pnpm dev
 ```
