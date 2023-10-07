@@ -1,9 +1,0 @@
-{{
-  // import type { LevelType, TextType } from './types';
-
-  /** @declarations */
-  const level = props.level /* as LevelType */
-  const text = props.text /* as TextType */
-}}
-
-<h{{ level }}>{{ text }}</h{{ level }}>
