@@ -1,1 +1,6 @@
-<h{{ props.level }}>{{ props.text }}</h{{ props.level }}>
+
+
+
+<h{{ props.level }} class="{{ props.classes }}">
+  {{ props.text }}
+</h{{ props.level }}>

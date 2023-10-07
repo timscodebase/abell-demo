@@ -12,6 +12,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "abell": "1.0.0-beta.2"
+    "abell": "1.0.0-beta.2",
+    "tailwindcss": "^3.3.3"
   }
 }
