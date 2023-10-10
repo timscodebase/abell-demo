@@ -31,12 +31,15 @@
   }
 
   a {
-    color: var(--text);
+    color: var(--page-text);
     text-decoration: none;
     font-size: 1.1rem;
   }
   a.active {
-    color: var(--primary-hover);
+    color: var(--primary);
     font-weight: bold;
+  }
+  a:hover {
+    text-decoration: underline;
   }
 </style>

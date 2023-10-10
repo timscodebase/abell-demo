@@ -7,7 +7,9 @@
   {{ globalMeta({ title: 'About Page' }) }}
 </head>
 <body>
-  {{ navbar({ activeRoute: '/about' }) }}
-  <div class="container">Welcome to About Page 📚</div>
+  <main class="container">
+    {{ navbar({ activeRoute: '/about' }) }}
+    <div class="container">Welcome to About Page 📚</div>
+  </main>
 </body>
 </html>

@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --primary: #4c6bf3;
-  --primary-hover: #1f3ac1;
-  --logo-shadow: #6b79bccc;
+  --blue: #4c6bf3;
+  --dark-blue: #0a2fe0;
+  --transparent-blue: #6b79bccc;
+
+  --primary: var(--blue);
+  --primary-hover: var(--dark-blue);
+  --logo-shadow: var(--transparent-blue);
 
   --dark-gray: #333;
   --dark-grey: var(--dark-gray);
