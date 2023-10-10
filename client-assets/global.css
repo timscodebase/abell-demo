@@ -3,18 +3,41 @@
 @tailwind utilities;
 
 :root {
-  --primary: #0a30e0;
-  --primary-hover: #1c3ee7;
-  --logo-shadow: #002bf6cc;
-  --text: #111;
+  --primary: #4c6bf3;
+  --primary-hover: #1f3ac1;
+  --logo-shadow: #6b79bccc;
+
+  --dark-gray: #333;
+  --dark-grey: var(--dark-gray);
+
+  --light-gray: #eee;
+  --light-grey: var(--light-gray);
+
+  --page-bg: var(--dark-gray);
+  --page-text: var(--light-gray);
 }
 
 * {
   box-sizing: border-box;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-pg: var(--dark-gray);
+    --page-text: var(--light-gray);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --page-bg: var(--light-gray);
+    --page-text: var(--dark-gray);
+  }
+}
+
 body {
-  color: var(--text);
+  background-color: var(--page-bg);
+  color: var(--page-text);
   font-family: Verdana, Helvetica, sans-serif;
   text-align: center;
 }
